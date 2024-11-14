@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\User\Desktop\estudo\Video Aulas\2. menina yt\Fazendo\EmprestimosLivros
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/User/Desktop/estudo/Video Aulas/2. menina yt/Fazendo/EmprestimosLivros/Views/Emprestimo/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb1xDYWRhc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/User/Desktop/estudo/Video Aulas/2. menina yt/Fazendo/EmprestimosLivros/Views/Emprestimo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
