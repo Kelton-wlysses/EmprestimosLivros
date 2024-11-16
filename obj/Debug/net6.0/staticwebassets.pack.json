@@ -5,12 +5,16 @@
       "PackagePath": "staticwebassets\\EmprestimosLivros.bundle.scp.css"
     },
     {
-      "Id": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\css\\Materia.css",
+      "PackagePath": "staticwebassets\\css\\Materia.css"
     },
     {
       "Id": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\img\\img_01.jpg",
+      "PackagePath": "staticwebassets\\img\\img_01.jpg"
     },
     {
       "Id": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\js\\site.js",

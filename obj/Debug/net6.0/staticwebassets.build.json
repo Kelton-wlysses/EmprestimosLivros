@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iWkgIpE7bHWWDr8hF8Rs53HidSWxYrvHS2RlfC71RRs=",
+  "Hash": "CW60KETfSy9xWqMFSNEroC4jMqd2cnRLsAIw9rD3n7k=",
   "Source": "EmprestimosLivros",
   "BasePath": "_content/EmprestimosLivros",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EmprestimosLivros.bundle.scp.css"
     },
     {
-      "Identity": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\css\\site.css",
+      "Identity": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\css\\Materia.css",
       "SourceId": "EmprestimosLivros",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\",
       "BasePath": "_content/EmprestimosLivros",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/Materia.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\Materia.css"
     },
     {
       "Identity": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\favicon.ico",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\img\\img_01.jpg",
+      "SourceId": "EmprestimosLivros",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\",
+      "BasePath": "_content/EmprestimosLivros",
+      "RelativePath": "img/img_01.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\img_01.jpg"
     },
     {
       "Identity": "D:\\User\\Desktop\\estudo\\Video Aulas\\2. menina yt\\Fazendo\\EmprestimosLivros\\wwwroot\\js\\site.js",
