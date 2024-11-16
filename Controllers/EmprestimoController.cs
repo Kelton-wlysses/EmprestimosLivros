@@ -1,4 +1,6 @@
 
+using System.Data;
+using ClosedXML.Excel;
 using EmprestimosLivros.Data;
 using EmprestimosLivros.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -112,6 +114,50 @@ namespace EmprestimosLivros.Controllers
             }
 
             return View();
+        }
+
+
+        // [HttpPost]
+        public IActionResult Exportar()
+        {
+            var dados = GetDados();
+
+            using (XLWorkbook workBook = new XLWorkbook())
+            {
+                workBook.AddWorksheet(dados, "Dados Empréstimos");
+
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    workBook.SaveAs(ms);
+                    return File(ms.ToArray(), "application/vmd.openxmlformats-officedocument.spredsheetml.sheet", "Emprestimos.xls");
+                }
+            }
+        }
+
+        private DataTable GetDados()
+        {
+
+            DataTable dataTable = new DataTable();
+
+            dataTable.TableName = "Dados Empréstimos";
+
+            dataTable.Columns.Add("Recebedor", typeof(string));
+            dataTable.Columns.Add("Fornecedor", typeof(string));
+            dataTable.Columns.Add("Livro", typeof(string));
+            dataTable.Columns.Add("Data emprestimos", typeof(DateTime));
+
+            var dados = _db.Emprestimos.ToList();
+
+            if (dados.Count > 0)
+            {
+                dados.ForEach(emprestimo =>
+                {
+                    dataTable.Rows.Add(emprestimo.Recebedor, emprestimo.Fornecedor, emprestimo.LivroEmprestado, emprestimo.dataUltimaAtualizacao);
+
+                });
+            }
+
+            return dataTable;
         }
     }
 }
